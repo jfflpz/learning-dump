@@ -1,0 +1,12 @@
+pandas
+pydantic
+geopandas
+shapely
+numpy
+SQLAlchemy
+GeoAlchemy2
+psycopg2-binary
+uvicorn
+fastapi
+asyncpg
+httpx

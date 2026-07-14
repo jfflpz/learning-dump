@@ -1,0 +1,119 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "main-exit-E",
+        "zone_name": "Main Exit E",
+        "zone_type": "exit",
+        "capacity": 100,
+        "status": "normal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [121.0238256, 14.7777993],
+            [121.0197509, 14.7512032],
+            [121.0323146, 14.6971801],
+            [121.0569326, 14.73462],
+            [121.0465761, 14.7766502],
+            [121.0238256, 14.7777993]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "main-entrance-D",
+        "zone_name": "Main Entrance D",
+        "zone_type": "entrance",
+        "capacity": 521,
+        "status": "normal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [121.0211092, 14.7786201],
+            [121.0353707, 14.8007809],
+            [120.9869835, 14.8014375],
+            [121.0211092, 14.7786201]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "main-stage-A",
+        "zone_name": "Main Stage A",
+        "zone_type": "stage",
+        "capacity": 500,
+        "status": "normal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [120.9470854, 14.7930659],
+            [120.9774759, 14.7740234],
+            [121.0202603, 14.7787842],
+            [120.9470854, 14.7930659]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "main-hall-C",
+        "zone_name": "Main Hall C",
+        "zone_type": "hall",
+        "capacity": 50,
+        "status": "normal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [121.0448949, 14.8177785],
+            [121.0725689, 14.8174503],
+            [121.0746062, 14.796276],
+            [121.0443855, 14.7990666],
+            [121.0443855, 14.7990666],
+            [121.0448949, 14.8177785]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "main-seating-B",
+        "zone_name": "Main Seating B",
+        "zone_type": "seating",
+        "capacity": 200,
+        "status": "normal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [120.9605249, 14.864873],
+            [120.9713624, 14.8148209],
+            [120.9894249, 14.865649],
+            [120.9990583, 14.8606055],
+            [121.0182111, 14.8071132],
+            [120.9291027, 14.805949],
+            [120.9339194, 14.8408718],
+            [120.9503763, 14.8385438],
+            [120.9605249, 14.864873]
+          ]
+        ]
+      }
+    }
+  ]
+}
