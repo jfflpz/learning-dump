@@ -24,6 +24,15 @@ A React frontend that renders digitized venue floor plans as interactive GeoJSON
 
 ---
 
+### 📍 [life-tracker-backend/](./life-tracker-backend/)
+**Personal GPS Life Tracker Backend**
+
+A FastAPI + PostGIS backend designed to ingest 24/7 time-series GPS data from a mobile app. Features offline-first batched ingestion, spatial geofencing queries using PostGIS functions, and GeoJSON map generation.
+
+**Tech:** Python · FastAPI · PostgreSQL + PostGIS · GeoAlchemy2 · Pydantic
+
+---
+
 ## What I'm Learning
 
 - **Spatial Data Formats** — GeoJSON, WKB, coordinate reference systems (EPSG:4326)
@@ -38,6 +47,7 @@ Each project has its own README with setup instructions:
 
 - [telemetry-backend/README.md](./telemetry-backend/README.md)
 - [crowd-density-frontend/README.md](./crowd-density-frontend/README.md)
+- [life-tracker-backend/README.md](./life-tracker-backend/README.md)
 
 ## License
 
