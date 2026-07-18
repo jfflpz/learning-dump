@@ -36,12 +36,20 @@ Create a virtual environment and install dependencies:
 ```bash
 python -m venv venv
 source venv/bin/activate
-pip install fastapi uvicorn sqlalchemy asyncpg geoalchemy2 pydantic
+pip install fastapi uvicorn sqlalchemy asyncpg geoalchemy2 pydantic httpx
 ```
 
 ### 3. Initialize Tables
 ```bash
 python init_db.py
+```
+
+### 4. OSRM Setup (Map Matching)
+Download the map data and start the OSRM docker container:
+```bash
+wget http://download.geofabrik.de/asia/philippines-latest.osm.pbf -P osrm-data/
+# Run extraction/partitioning (see roadmap for exact commands)
+docker compose up -d
 ```
 
 ### 4. Run the API
